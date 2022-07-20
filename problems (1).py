@@ -276,3 +276,13 @@ for i in c:
         l.append((i,c.index(i)))
 print(l)
  
+
+	
+###############################
+
+#print 5 decimal points
+
+ print("%.5f" % (equalCount(arr)/l))  # use this formatting for Zero divdable 
+
+print(float("{0:.5f}".format(lessCount(arr)/l)))
+print(float("{0:.5f}".format(greaterCount(arr)/l))) 
